@@ -1,0 +1,3 @@
+Notes for report:
+- Not using synonyms for release / launch as only these two words are used to indicate movie launch.
+- Frequent pattern with premiere handling
