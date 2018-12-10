@@ -1,4 +1,8 @@
 // WRITTEN BY HARSH BHALANI
 
 -> Written By template supports Active , Passive voice, multiple writers
--> 
+-> Played Role template:
+	we are not going to extract info from this type of sentence "Terrence Howard was announced in the role of Stark's best friend Jim Rhodes in October 2006."
+	
+	-> statement1 = "Sebastian Stan makes an uncredited appearance in the post-credits scene reprising his role as Bucky Barnes."
+		will extract character name as Bucky Barnes, but not able to fetch Actor name
