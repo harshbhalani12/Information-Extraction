@@ -1,3 +1,18 @@
 Notes for report:
 - Not using synonyms for release / launch as only these two words are used to indicate movie launch.
 - Frequent pattern with premiere handling
+- Date extraction huristic to syntactic
+- Syntactic word -> noun chunk lookup
+- s8 => s8_1
+
+---Premiere
+- different patterns
+- 
+- did not match: Speaking at a screening of the film during the 2010 Fordham University Law School Film festival, Supreme Court Justice Sonia Sotomayor stated that seeing 12 Angry Men while she was in college influenced her decision to pursue a career in law.
+
+- initially tried generic code then after 4-5 templates we realised that breakdown single template in multiple high-frequent pattern would give more clear way for thinking.
+- Location extraction:
+	- Stage 1: find GPE entity that is attached with ["at", "in"]
+	- Stage 2: sometimes GPE detection failes to detect location then fallback for noun phrases. This might confuse with time with "at" attachement.
+
+- domain knowledge extraction
