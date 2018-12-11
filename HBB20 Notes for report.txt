@@ -16,3 +16,4 @@ Notes for report:
 	- Stage 2: sometimes GPE detection failes to detect location then fallback for noun phrases. This might confuse with time with "at" attachement.
 
 - domain knowledge extraction
+- Unable to detect movie names which contains ":" e.g. "Captain America: The First Avenger"
